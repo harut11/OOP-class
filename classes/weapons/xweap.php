@@ -2,7 +2,15 @@
 
 namespace weapons;
 
-abstract class xweap extends weapons {
-	abstract public function shoot(\ammo $ammo) : \sleeve;
-	abstract public function reloud(\magazine $magazine) : \magazine;
+class xweap extends weapons {
+	final public function shoot(\ammo $ammo) : \sleeve 
+	{
+		echo 'Shooting';
+		return new \sleeve;
+	}
+	final public function reloud(\magazine $magazine) : \magazine 
+	{
+		echo 'Relouding';
+		return new \sleeve;
+	}
 }

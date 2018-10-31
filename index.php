@@ -11,14 +11,16 @@ spl_autoload_register(function($class_name) {
 });
 
 
-
-
-$ak74 = new weapons\automatons();
+$xweap = new weapons\xweap();
 $ammo = new ammo();
-$ak74->shoot($ammo);
+$xweap->shoot($ammo);
 
-$bazuka = new weapons\bazuka();
-$whizbang = new whizbang();
-$bazuka->shoot($whizbang);
+//$ak74 = new weapons\automatons();
+//$ammo = new ammo();
+//$ak74->shoot($ammo);
+
+//$bazuka = new weapons\bazuka();
+//$whizbang = new whizbang();
+//$bazuka->shoot($whizbang);
 
 ?>

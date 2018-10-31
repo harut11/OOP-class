@@ -1,5 +1,5 @@
 <?php
 
-class whizbang extends ammo {
-	
+class whizbang {
+
 }
